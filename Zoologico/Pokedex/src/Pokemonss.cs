@@ -20,7 +20,7 @@ namespace Kanto.src
         public Pokemonss() { }
         public virtual void Batalhar()
         {
-            Console.WriteLine($"\n-- Ação --\n" +
+            Console.WriteLine(
                 $"Pokemon eu Escolho Você");
         }
 

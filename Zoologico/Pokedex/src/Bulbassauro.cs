@@ -18,8 +18,8 @@ namespace Kanto.src
 
         public override void Batalhar()
         {
-            Console.WriteLine($"\n-- Ação --\n" +
-                $"Bulbassauro eu Escolho Você!!");
+            Console.WriteLine(
+                $"Bulbassauro, eu Escolho Você!!");
         }
         public void Falar()
         {

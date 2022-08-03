@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace Kanto.src
 {
-    class Pikachu : Bulbassauro
+    class Pikachu : Pokemonss
     {
+        public Pikachu() { }
         public Pikachu(string Nome, int Level, string Tipo) : base(Nome, Level, Tipo)
         {
             Nome = "Pikachu";
@@ -16,13 +17,13 @@ namespace Kanto.src
         }
         public override void Batalhar()
         {
-            Console.WriteLine($"\n-- Ação --\n" +
-                $"Pikachu eu Escolho Você");
+            Console.WriteLine(
+                $"Pikachu, eu Escolho Você!!");
         }
         
-        public void Falar()
+        public static void Falar()
         {
-            Console.WriteLine($"pika,pika");
+            Console.WriteLine($"pika,pika!!");
         }
 
 
